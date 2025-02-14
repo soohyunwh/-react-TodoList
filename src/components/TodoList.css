@@ -1,0 +1,47 @@
+/* TodoList.css */
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li span {
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  button.delete {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+  }
+  
+  button.delete:hover {
+    background-color: #ff3333;
+  }
+  
